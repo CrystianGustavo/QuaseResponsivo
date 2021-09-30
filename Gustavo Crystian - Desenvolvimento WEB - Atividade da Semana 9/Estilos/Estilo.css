@@ -1,0 +1,355 @@
+﻿* {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+   order: 1;
+   background-image: url("../Imagens/Banner.jpg");
+   display: flex;
+   justify-content: space-between;
+   align-itens: center;
+   flex-wrap: wrap;
+}
+
+body {
+   background-color: #800000;
+		
+}
+
+.titulo { 
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;  
+	display: flex;
+}
+
+.titulo2 {
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   max-height: 80px;
+}
+
+.menu ul {
+   align-items: center;
+   font-weight: bold;
+   text-transform: uppercase;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: black;
+}
+
+.menu li {
+   float: left;
+   border-right: 1px solid white;
+}
+
+.menu li a {
+   display: block;
+   color: #808080;
+   text-align: center;
+   padding: 14px 17.2px;
+   text-decoration: none;
+}
+
+.menu li a:hover {
+   background-color: white;
+   color: blue;
+}
+
+.menu .active {
+   color: white;
+   background-color: blue;
+   display: flex;
+   justify-content: space-between;
+   align-itens: center;
+   flex-wrap: wrap;
+}
+
+body {
+   background-image: url('../imagens/Fundo.jpg');
+   background-size: cover;
+   backdrop-filter: blur(3px);
+}
+
+main, footer{
+   margin: 20px;
+}
+
+footer {
+   text-align: center;
+}
+
+main h2 {
+   color: white;
+}
+
+
+.cor-titulo, .cor-rodape{
+   padding: 10px;
+   background: rgba(127, 0, 255, 0.3);
+}
+
+.cor-titulo2, .cor-rodape{
+   padding: 15px;
+   background: rgba(0, 0, 0, 100);
+}
+
+.cor-fundo {
+   padding: 25px;
+   background: rgba(0, 0, 255, 0.3);
+   display: flex;
+   justify-content: space-between;
+   align-itens: center;
+   flex-wrap: wrap;
+}
+
+h1 {
+   color: white;
+   text-align: center;
+}
+
+h4{
+   color: white;
+}
+
+.row {
+   flex: content;
+   text-align: left;
+}
+
+.personagens {
+   max-height: 300px;
+}
+
+.imGira {
+   background-color: transparent;
+   width: 300px;
+   height: 350px;
+   perspective: 1000px; 
+}
+
+.flip-box-inner {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+}
+
+.imGira:hover .flip-box-inner {
+   transform: rotateY(180deg);
+		
+}
+
+.flip-box-front, .flip-box-back {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   backface-visibility: hidden;
+}   
+
+.flip-box-back {
+   color: white;
+   transform: rotateY(180deg);
+}
+
+.row {
+   display: flex;
+   flex-direction: row;
+}
+
+.center {
+   justify-content: center;
+   text-align: center;
+}
+
+/*Efeito diferentão: Deixa as imagens em escala de cinza através do ".grayscale" */
+.grayscale {
+   position: relative;
+   filter: grayscale(100%);   
+}
+
+.overlay {
+   font-weight: bold;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+}
+
+p .personagem{
+   margin-bottom: 10px;
+   color: white;
+}
+
+.ator {
+   font-size: 15px;
+   font-style: italic;
+}
+
+.video{
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   align-itens: center;
+   flex-wrap: wrap;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+.italic {
+   font-style: italic;
+}
+
+.mb {
+   margin-bottom: 20px;
+margin-right: 100px;
+display: flex;
+   justify-content: space-between;
+   align-itens: center;
+   flex-wrap: wrap;
+
+}
+
+.mb2 {
+   margin-bottom: 20px;
+margin-left: -200px;
+display: flex;
+   justify-content: space-between;
+   align-itens: center;
+   flex-wrap: wrap;
+
+}
+
+.mb3 {
+   display: table-cell;
+	float: left;
+	width: 800px;
+	margin-top: 120px;
+	margin-left: 400px;
+
+}
+
+.menu, .historia p {
+   color: white;
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   align-itens: center;
+   flex-wrap: wrap;
+}
+
+mr {
+   margin-right: 20px;
+}
+
+ml {
+   margin-left: 20px;
+}
+
+pt {
+   align-items: center;
+}
+
+.img-decoration{
+   max-height: 480px;
+   margin-right: 250px;
+
+}
+
+.img-decoration2{
+   justify-self: center;
+   max-height: 200px;
+   margin-right: 50px;
+}
+
+.img-space {
+   text-align: center;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-itens: center;
+   flex-wrap: wrap;
+}
+
+.topicos li {
+   color: white;
+   margin-bottom: 10px;
+}
+
+.topicos p {
+   margin-bottom: 20px;
+	
+   
+}
+
+.img-space2 {
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   align-itens: center;
+   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 970px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .container {
+    width: 500px;
+  }
+
+  nav {
+    width: 100%;
+    order: 2;
+  }
+
+  main {
+    width: 100%;
+    order: 3;
+    border-right: none;
+  }
+
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  header h1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  body {
+    margin: 0;
+  }
+  
+  .container {
+    width: 100%;
+  }
+
+  main h3 {
+    width: 100%;
+  }
+
+  main figure {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+}
