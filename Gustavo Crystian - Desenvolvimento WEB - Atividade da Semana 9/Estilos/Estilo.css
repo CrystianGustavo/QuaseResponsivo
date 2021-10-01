@@ -1,4 +1,4 @@
-﻿* {
+* {
    margin: 0;
    padding: 0;
    font-family: Arial, Helvetica, sans-serif;
@@ -214,21 +214,10 @@ p .personagem{
 
 .mb {
    margin-bottom: 20px;
-margin-right: 100px;
-display: flex;
-   justify-content: space-between;
-   align-itens: center;
-   flex-wrap: wrap;
-
 }
 
 .mb2 {
    margin-bottom: 20px;
-margin-left: -200px;
-display: flex;
-   justify-content: space-between;
-   align-itens: center;
-   flex-wrap: wrap;
 
 }
 
@@ -352,4 +341,44 @@ pt {
     margin: 0;
     width: 100%;
   }
+}
+
+.row {
+   
+  display: flex;
+ 
+  flex-direction: row;
+ 
+  flex-wrap:wrap;
+
+}
+
+
+
+.conteudo1{
+	
+  order: 1;
+	
+  width:20%;
+
+}
+
+
+
+.conteudo2{
+	
+  order: 2;
+	
+  width:55%;
+
+}
+
+
+
+.conteudo3{
+	
+  order: 3;
+	
+  width:20%;
+
 }
