@@ -1,8 +1,10 @@
-* {
+﻿* {
    margin: 0;
    padding: 0;
    font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 header {
    order: 1;
@@ -89,7 +91,6 @@ footer {
 main h2 {
    color: white;
 }
-
 
 .cor-titulo, .cor-rodape{
    padding: 10px;
@@ -197,10 +198,9 @@ p .personagem{
 }
 
 .video{
-   text-align: center;
+   align-itens: center;	
    display: flex;
    justify-content: space-between;
-   align-itens: center;
    flex-wrap: wrap;
 }
 
@@ -227,6 +227,7 @@ p .personagem{
 	width: 800px;
 	margin-top: 120px;
 	margin-left: 400px;
+		
 
 }
 
@@ -381,4 +382,15 @@ pt {
 	
   width:20%;
 
+}
+
+.hab{
+   font-size: clamp(14px,16px,22px);
+}
+
+.img-space3 {
+   width: 70%;
+   display: flex;
+   align-itens: center;
+   flex-wrap: wrap;
 }
